@@ -1,19 +1,50 @@
-main {
+:host {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 52px;
   left: 0;
   right: 0;
   bottom: 0;
+  background: #ededed;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 990px;
+  min-height: 60vh;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px 1px rgba(0, 0, 0, .25);
+  perspective: 3000px;
+  transition: all .5s;
 }
 figure {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  margin: 0;
-  transform: translate3d(-50%, -50%, 0);
 }
 figure > img {
+  display: inline-block;
   width: 200px;
-  border-radius: 100%;
+}
+
+.major-info {
+  width: 500px;
+  padding-left: 100px;
+}
+.info-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  line-height: 60px;
+}
+
+.info-item > label {
+  flex-basis: 60px;
+  font-size: 20px;
+}
+.info-item > span {
+  flex: 1;
+  font-size: 18px;
 }

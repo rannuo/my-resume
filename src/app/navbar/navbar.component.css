@@ -3,6 +3,8 @@ nav {
   background: #673ab7;
   color: rgba(255, 255, 255, 0.87);
   padding: 8px 16px;
+  min-width: 100%;
+  max-width: 100%;
 }
 nav>a {
   margin: 0 20px;

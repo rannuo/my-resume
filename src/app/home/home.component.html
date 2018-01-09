@@ -1,6 +1,32 @@
-<main>
+<main
+  (mousemove)="handleMouseMove($event)"
+  [ngStyle]="{'transform': rotate3d | async }"
+  (mouseout)="handleMouseOut()"
+  (mouseleave)="handleMouseOut()"
+  >
   <figure>
     <img src="assets/myphoto-little.jpg" alt="my photo">
-    <figcaption>刘春雷</figcaption>
   </figure>
+  <div class="major-info" >
+    <div class="info-item">
+      <label>姓名：</label>
+      <span>刘春磊</span>
+    </div>
+    <div class="info-item">
+      <label>学历：</label>
+      <span>本科</span>
+    </div>
+    <div class="info-item">
+      <label>学校：</label>
+      <span>大连理工大学</span>
+    </div>
+    <div class="info-item">
+      <label>职业：</label>
+      <span>前端工程师</span>
+    </div>
+    <div class="info-item">
+      <label>公司：</label>
+      <span>腾讯大连无线研发中心</span>
+    </div>
+  </div>
 </main>
