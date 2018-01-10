@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
-import 'rxjs/add/operator/throttleTime';
 import { Observable } from 'rxjs/Observable';
 
 @Component({
@@ -14,14 +13,14 @@ export class HomeComponent implements OnInit {
   rotate3d: Observable<string>;
   constructor() {
     this.rotateSubject = new Subject();
-    this.rotate3d = this.rotateSubject.throttleTime(500);
+    this.rotate3d = this.rotateSubject;
   }
 
   ngOnInit() {
   }
 
-  handleMouseMove(e: MouseEvent) {
-    let rect = e.target.getBoundingClientRect();
+  handleMouseMove(e: any) {
+    const rect = e.target.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
     const halfWidth = rect.width / 2;

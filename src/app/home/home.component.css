@@ -9,6 +9,11 @@
   bottom: 0;
   background: #ededed;
 }
+.main-wraper {
+  display: flex;
+  padding: 20px;
+  border: 20px solid #666;
+}
 main {
   display: flex;
   align-items: center;
@@ -20,7 +25,6 @@ main {
   border-radius: 10px;
   box-shadow: 0 6px 20px 1px rgba(0, 0, 0, .25);
   perspective: 3000px;
-  transition: all .5s;
 }
 figure {
 }
