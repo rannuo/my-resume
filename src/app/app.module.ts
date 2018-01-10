@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent} from './home/home.component';
 import { HistoryComponent } from './history/history.component';
 import { ContactComponent } from './contact/contact.component';
+import { CardViewerComponent } from './card-viewer/card-viewer.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,7 +23,8 @@ const appRoutes: Routes = [
     NavbarComponent,
     HomeComponent,
     HistoryComponent,
-    ContactComponent
+    ContactComponent,
+    CardViewerComponent
   ],
   imports: [
     BrowserModule,

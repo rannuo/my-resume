@@ -1,11 +1,15 @@
+:host {
+  display: block;
+  width: 100%;
+  background: #673ab7;
+}
 nav {
   display: flex;
-  background: #673ab7;
-  color: rgba(255, 255, 255, 0.87);
-  padding: 8px 16px;
-  min-width: 100%;
+  justify-content: space-around;
+  width: 500px;
   max-width: 100%;
+  padding: 8px 0;
+  color: rgba(255, 255, 255, 0.87);
 }
 nav>a {
-  margin: 0 20px;
 }

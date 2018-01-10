@@ -7,18 +7,21 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ededed;
+  overflow: auto;
 }
 .main-wraper {
   display: flex;
   padding: 20px;
   border: 20px solid #666;
+  max-width: 100%;
 }
 main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   width: 990px;
+  max-width: 100%;
   min-height: 60vh;
   border: 1px solid #ccc;
   background: #ffffff;
@@ -33,9 +36,14 @@ figure > img {
   width: 200px;
 }
 
+.place-spacer {
+  flex: 0 0 0%;
+  height: 1px;
+  margin-left: 80px;
+}
 .major-info {
   width: 500px;
-  padding-left: 100px;
+  padding-left: 20px;
 }
 .info-item {
   display: flex;

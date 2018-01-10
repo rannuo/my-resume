@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 100%;
+}
+.work-exp {
+  padding: 20px 0;
+  line-height: 1.5;
+}
+.work-exp + .work-exp {
+  border-top: 1px solid #ccc;
+}
+.company-name {
+  font-size: 18px;
+  color: #66a4f9;
+}
+.position-name {
+  text-indent: 2em;
+}
+.work-time {
+  font-size: 14px;
+}
+.work-content {
+  margin-top: 10px;
+}
