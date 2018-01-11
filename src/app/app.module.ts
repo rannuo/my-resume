@@ -12,7 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CardViewerComponent } from './card-viewer/card-viewer.component';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: HistoryComponent },
   { path: 'history', component: HistoryComponent },
   { path: 'about', component: ContactComponent }
 ];
