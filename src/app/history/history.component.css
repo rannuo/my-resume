@@ -2,18 +2,44 @@
   display: block;
   width: 900px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 20px 20px;
   max-width: 100%;
 }
+.basic-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 990px;
+  max-width: 100%;
+}
+.figure {
+  margin: 0;
+}
+.figure > img {
+  width: 150px;
+}
+.space-spaker {
+  width: 100px;
+  height: 0;
+}
+.major-info {
+  width: 400px;
+}
+.info-item {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+}
 .work-exp {
-  padding: 20px 0;
+  padding: 10px 0;
   line-height: 1.5;
 }
 .work-exp + .work-exp {
   border-top: 1px solid #ccc;
 }
 .company-name {
-  font-size: 18px;
+  font-size: 16px;
   color: #66a4f9;
 }
 .position-name {
@@ -23,5 +49,8 @@
   font-size: 14px;
 }
 .work-content {
-  margin-top: 10px;
+  margin-top: 15px;
+}
+a {
+  margin: 0 5px;
 }

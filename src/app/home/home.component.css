@@ -10,8 +10,6 @@
   overflow: auto;
 }
 .main-wraper {
-  position: absolute;
-  top: 0px;
   display: flex;
   padding: 20px;
   border: 20px solid #666;
