@@ -14,6 +14,7 @@
   padding: 20px;
   border: 20px solid #666;
   max-width: 100%;
+  perspective: 1000px;
 }
 main {
   display: flex;
@@ -27,7 +28,6 @@ main {
   background: #ffffff;
   border-radius: 10px;
   box-shadow: 0 6px 20px 1px rgba(0, 0, 0, .25);
-  perspective: 3000px;
 }
 figure {
 }
