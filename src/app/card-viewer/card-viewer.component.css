@@ -3,13 +3,15 @@
   padding: 2px 0;
 }
 .wraper {
-  border: 1px solid rgba(0, 0, 0, 0.03);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, .85);
+  border: 1px solid rgba(255, 255, 255, .85);
+  box-shadow: 0 2px 2px rgba(255, 255, 255, .45),
+    0 0 2px rgba(255, 255, 255, .45);
   margin: 5px;
   transition: box-shadow .5s;
 }
 .wraper:hover {
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.24), 0 0 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 8px rgba(255, 255, 255, .45), 0 0 8px rgba(255, 255, 255, .45);
 }
 .title {
   display: flex;
