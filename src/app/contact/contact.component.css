@@ -1,4 +1,7 @@
 main {
   text-align: center;
+  font-weight: bold;
+  font-size: 22px;
   padding-top: 200px;
+  text-shadow: 0 0 2px #fff;
 }
