@@ -1,4 +1,5 @@
 <div class="main-wraper">
+  <div class="bg"></div>
 <main
   (mousemove)="handleMouseMove($event)"
   [ngStyle]="{'transform': rotate3d | async }"
@@ -15,6 +16,10 @@
       <span>刘春磊</span>
     </div>
     <div class="info-item">
+      <label>职业：</label>
+      <span>前端工程师</span>
+    </div>
+    <div class="info-item">
       <label>学历：</label>
       <span>本科2017届</span>
     </div>
@@ -23,12 +28,8 @@
       <span>大连理工大学</span>
     </div>
     <div class="info-item">
-      <label>职业：</label>
-      <span>前端工程师</span>
-    </div>
-    <div class="info-item">
-      <label>公司：</label>
-      <span>腾讯大连无线研发中心</span>
+      <label>技能：</label>
+      <span>HTML CSS JS TS React Mobx</span>
     </div>
   </div>
   <a routerLink="/history" class="to-detail-btn">

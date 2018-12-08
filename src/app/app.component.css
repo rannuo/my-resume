@@ -1,0 +1,5 @@
+main {
+  height: calc(100vh - 52px);
+  overflow: auto;
+  background: center center no-repeat url(../assets/infinite.jpg);
+}

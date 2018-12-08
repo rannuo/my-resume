@@ -10,11 +10,21 @@
   overflow: auto;
 }
 .main-wraper {
-  display: flex;
+  position: relative;
   padding: 20px;
   border: 20px solid #666;
   max-width: 100%;
-  perspective: 1000px;
+  perspective: 3000px;
+}
+.bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: center center no-repeat url(../../assets/infinite.jpg);
+  filter: blur(16px);
+  z-index: -1;
 }
 main {
   display: flex;
@@ -24,10 +34,10 @@ main {
   width: 990px;
   max-width: 100%;
   min-height: 60vh;
-  border: 1px solid #ccc;
-  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, .35);
+  background: rgba(255, 255, 255, .35);
   border-radius: 10px;
-  box-shadow: 0 6px 20px 1px rgba(0, 0, 0, .25);
+  box-shadow: 0 6px 20px 1px rgba(255, 255, 255, .35);
 }
 figure {
 }
